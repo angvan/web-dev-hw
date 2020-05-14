@@ -1,0 +1,6 @@
+Angela Vanderpool
+
+1. The internet connects participants/devices through a series of independently operated networks, whereas the web connects these participants to information using hypertext documents.
+2. The internet is like a wire that allows clients to communicate via servers. Information is broken into packets to send across the internet. Routers direct packets around the internet to their intended recipient. Everything connected to the internet has an IP address which helps clients find each other.
+3. Directories are the folders in which we organize our different files. Each directory contains related files, and directories are hierachical with the top most directory being called the root directory. Familial terms are used to describe the relationship between directories within the same tree, such as "child" and "parent".
+4. VCS is beneficial because you are able to see previous versions of a task and the history of content changes. It is especially useful when working as a team and collaborating on the same project. Each team member can edit a project at the same time and later the different versions can be merged. The history tracking shows who made what changes and when the changes were made.
