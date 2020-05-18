@@ -1,1 +1,9 @@
 My responses:
+
+1. Our data is shipped on the internet in the form of binary information which is made up of bits. This data is broken up into packets. The TCP manages the sending and receiving of all your data and the router determines the cheapest available path for sending said data.
+
+2. Computers use DNS to look up domain names then get the associated IP address which is used to connect computer to the destination on the internet.
+
+3. Cookies are what websites use to remember who you are, like an ID card. The browser holds the ID card for each time you return to that website.
+
+4. The three basic parts of a URL are the protocol, the domain name, and the path.
