@@ -1,6 +1,9 @@
 # Assignment 5
-## Angela vanderpool
+## Angela Vanderpool
 
 1. Each page will have two \<head\> elements and two \<body\> elements. One is the opening tag and the second is the closing tag. The \<head\> contains high level information about the site, and always comes first within the root element. It also contains the thoughts of the page, indexing information for search results, and can help dictate how the page will visibly look. The only required element in the \<head\> is the \<title\> element.
-The \<body\> element is the container for all the content that is intended to be displayed on the browser's page. The \<body\> is the aspect of the site that visitors see and interact with.
-2. Structual markup embeds information about the structure of the document whereas Semantic markup is used to reinforce the semantics or meaning of the information within the document. Structural includes elements such as headings, paragraphs, breaks, and lists, which help guide a user visually. Examples of Semantic elements are bold, strong, italics, emphasis, superscript, subscript, quotations, etc.
+The \<body\> element is the container for all the content that is intended to be displayed on the browser's page. The \<body\> is the aspect of the site that visitors see and interact with. It contains the Structural markup and the Semantic markup.
+
+2. Structural markup embeds information about the structure of the document whereas Semantic markup is used to reinforce the semantics or meaning of the information within the document. Structural includes elements such as headings, paragraphs, breaks, and lists, which help guide a user visually. Examples of Semantic elements are bold, strong, italics, emphasis, superscript, subscript, quotations, etc.
+
+3. I followed the steps for this assignment in a linear way initially. After completing my HTML, I then made minor aesthetic adjustments to the webpage, such as adding a horizontal line under the first heading, writing a brief description beneath the first heading that included the absolute link to the original online recipe source, and adding the photo to the top of the page and aligning it to the right. I also made some minor adjustments to the HTML for the email address under the Contact Me section so there wouldn't be extra spaces between each line. I did this by making the whole section a paragraph with breaks. At the end, I reviewed my HTML code to make sure it looked clean and concise.
