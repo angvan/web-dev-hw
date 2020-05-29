@@ -13,8 +13,11 @@
   </head>
 
   <body>
-    <h1>Bozeman Community Food Co-op</h1>
+    <h1>Bozeman Community Food Co-op <img src="./images/coop-logo.png" width="50" alt="Coop Logo"></h1>
     <hr />
+
+    <fieldset>
+      <legend><b>Contact Information</b></legend>
     <address>
       908 W. Main<br>
       Bozeman, MT<br>
@@ -48,10 +51,14 @@ at
       </tr>
 
     </table>
+  </fieldset>
 
     <br>
 
-      <form action="https://www.example.com/subscribe.pho" method="post">
+      <form action="https://www.example.com/subscribe.php" method="post">
+
+        <fieldset>
+          <legend><b>Your information</b></legend>
         What is your first name:
         <input type="text" name="firstname" maxlength="8" />
 
@@ -65,6 +72,8 @@ at
         <br><br>
 
         <input type="button" value="Submit" />
+
+      </fieldset>
       </form>
 
   </body>
