@@ -8,34 +8,63 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 06</title>
     <style>
-      table, td {border: 1px solid black}
+      table, td, th {border: 1px solid black}
     </style>
   </head>
 
   <body>
     <h1>Bozeman Community Food Co-op</h1>
-    <address></address>
+    <hr />
+    <address>
+      908 W. Main<br>
+      Bozeman, MT<br>
+      406-587-4039<br>
+    </address>
+
+    <p><b>Have a question?</b></p>
+
+<p><a href="mailto:bruce@bozo.coop">E-mail Us!</a>
+<br>
+at
+<br>
+<a href="mailto:bruce@bozo.coop">bruce@bozo.coop</a></p>
+
+
     <table>
       <tr>
-        <th>Store Hours</th>
+
+        <th colspan="3">Store Hours</th>
       </tr>
       <tr>
+        <th>Regular Shoppers</th>
         <td>Sunday-Saturday</td>
-        <td>8:00am-9:00pm</td>
+        <td>8:00am - 9:00pm</td>
       </tr>
 
       <tr>
-        <td>8:00 am - 9:00 pm</td>
+        <th>High Risk Shoppers</th>
+        <td>Sun, Tues, & Fri</td>
+        <td>7:00am - 8:00am</td>
       </tr>
 
     </table>
 
-      <form action="" method="post">
-        <input>
+    <br>
 
-        <br>
+      <form action="https://www.example.com/subscribe.pho" method="post">
+        What is your first name:
+        <input type="text" name="firstname" maxlength="8" />
 
-        <textarea></textarea>
+      <br><br>
+         Enter your comments below:
+         <br>
+        <textarea cols="35" rows="5" placeholder="Type here...">
+
+        </textarea>
+
+        <br><br>
+
+        <input type="button" value="Submit" />
       </form>
 
   </body>
