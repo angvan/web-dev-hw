@@ -1,7 +1,7 @@
 # Assignment 07
 ## Angela Vanderpool
 
-1. The **\<div\>** tag defines a division or segment and is styled by using a class or id attribute. The attribute **class** is an identifier and selector value for an HTML element and groups similar types of elements by using the same name value. The attribute **id** specifies a single unique id for an HTML element, which makes it differ from class. Both attributes are used to dictate style via CSS and both valid in every HTML element. Another attribute, **span**, defines the number of columns a \<col\>/\<colgroup\> element should span.
+1. The **\<div\>** tag defines a division or segment and is styled by using a class or id attribute. The attribute **class** is an identifier and selector value for an HTML element and groups similar types of elements by using the same name value. The attribute **id** specifies a single unique id for an HTML element, which makes it differ from class. Both attributes are used to dictate style via CSS and are valid in every HTML element. Another attribute, **span**, defines the number of columns a \<col\>/\<colgroup\> element should span.
 
 2. The **alt** attribute specifies an alternative language for an image if the image cannot be displayed or for the vision impaired audience who rely on a screen reader to use the internet.
 
