@@ -26,6 +26,32 @@
       <a href="./about.html">About</a> &vert;
       <a href="./contact.html">Contact</a>
     </nav>
-    <h2>Contact page</h2>
+    <h2>Contact Me!</h2>
+    <form action="https://www.example.com/subscribe.php" method="post">
+
+      <fieldset>
+        <legend><b>Your information</b></legend>
+      What is your first name:
+      <input type="text" name="firstname" maxlength="8" />
+    
+     <br>
+     <br>
+     <label>Gender:
+        <input id="male" type="radio" name="gender" value="m">
+        <label for="male">Male</label>
+        <input id="female" type="radio" name="gender" value="f">
+        <label for="female">Female</label>
+     </label>
+      <br>
+      <br>
+       Enter your comments below:
+       <br>
+      <textarea rows="5" cols="35" placeholder="Type here..."></textarea>
+      <br>
+      <br>
+      <input type="button" value="Submit" />
+    </fieldset>
+
+  </form>
   </body>
 </html>
