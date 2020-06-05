@@ -1,4 +1,8 @@
 # Assignment 08
 ## Angela Vanderpool
 
-1.
+1. I have worked with HTML a few times but only briefly. The last time I was in college (15 years ago), I took a computer science class, and we spent some time learning HTML. More recently, I took a lynda.com course on HTML as a refresher. Still, my experience with HTML is minimal, but I do remember how to add in links, paragraphs, and the four main document elements. It is overwhelming with how many tags, elements, attributes, etc. are utilized for creating websites. The most difficult aspect so far is probably the style tag and div elements, and understanding how all that works together in the creation process.
+
+2. In learning CSS, I just hope I won't feel overwhelmed with the information and remembering what goes where and how to make a webpage in the manner I envision it. That being said, I am excited to learn how to make webpages more dynamic.
+
+3. For this work cycle, I used style aspects from the previous assignment, elements from examples in the 08 Module, and the information provided in the walk through. When I first began on this assignment, I wasn't quite sure what my topic would be so I just started adding all the basic page elements that I could. Luckily, after a conversation with my son, I was reminded of all the information we learned about rattlesnakes a few years ago and realized that would be perfect for the assignment. I have a difficult time remembering how all the tags and elements work together and what goes where, but once I review (which seems to take a lot of time for me) and I get started, then it all begins to make more sense to me. I just hope as time goes on and with each new project, it will become easier for me to remember what to do.
