@@ -1,0 +1,68 @@
+
+
+body {
+   background-image: url("http://www.photos-public-domain.com/wp-content/uploads/2011/01/blue-green-and-red-plaid-texture.jpg");
+   padding: 10px;
+}
+
+ header, footer {
+
+   padding: 50px;
+   font-family: Arial;
+   color: white;
+}
+
+h1, p {
+  text-align: center;
+}
+
+img.align-center {
+  display: block;
+  margin: 0px auto;
+}
+
+img.medium {
+  width: 250px;
+  height: 250px;
+}
+
+.container {
+  background-color: mistyrose;
+  width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.content {
+   opacity: 0.8;
+   width: 100%;
+   display: flex;
+}
+
+
+#first {
+   background-color: #4682B4;
+   width: 33.33%;
+   height: 330px;
+   float: left;
+   img:
+}
+
+#middle {
+   background-color: #DC143C;
+   width: 33.33%;
+   height: 330px;
+   float: left;
+}
+
+#last {
+   background-color: #66CDAA;
+   width: 33.33%;
+   height: 330px;
+   float: left;
+}
+
+footer {
+   text-align: right;
+}
