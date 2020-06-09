@@ -43,7 +43,6 @@ img.medium {
    display: flex;
 }
 
-
 #first {
    background-color: #4682B4;
    width: 33.33%;
@@ -64,7 +63,6 @@ img.medium {
    height: 330px;
    float: left;
 }
-
 
 footer {
    position: relative;
