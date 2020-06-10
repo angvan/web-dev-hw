@@ -6,11 +6,18 @@ body {
    padding: 10px;
 }
 
- header, footer {
+ header {
 
    padding: 40px;
    font-family: sans-serif;
    color: white;
+}
+
+footer {
+
+  padding: 40px;
+  font-family: serif;
+  color: white;
 }
 
 h1, p {
@@ -30,6 +37,7 @@ img.medium {
 }
 
 .container {
+  font-family: serif;
   background-color: #000000;
   width: 600px;
   margin: auto;
