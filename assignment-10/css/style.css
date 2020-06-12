@@ -1,15 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Meddon&family=Merriweather:wght@300&display=swap');
+
 /* Page wide */
 body {
   background-color: #CD5C5C;
-  color: white;
+  color: #FFFAF0;
   padding: 5px;
   font-family: 'Merriweather', serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-style: italic;
+  text-decoration: underline;
 }
 
 /* Paragraph content */
 .text {
-  background-color: #FFFFFF;
+  background-color: #FFFAF0;
   color: #CD5C5C;
   padding: 5px;
   line-height: 2em;
@@ -21,23 +27,27 @@ body {
   color: #191970;
   position: relative;
   top: 35px;
-  width: 350px;
+  width: 375px;
   margin: auto;
-  padding: 20px;
+  padding: 10px;
+  text-align: center;
 }
 
 p:first-of-type:first-letter {
-  font-family: 'Meddon', cursive;
-  font-size: 2em;
+  font-family: 'Great Vibes', cursive;
+  font-size: 4em;
   font-weight: 700;
-  color: rgb(11, 44, 126);
+  color: #4B0082;
 }
+
 
 /* Read more link */
 a {
-  background-color: rgb(11, 44, 126);
+  background-color: #4B0082;
   color: #FFFFFF;
   padding: 5px;
+  position: relative;
+  top: 5px;
 }
 
 a:hover {
@@ -45,10 +55,10 @@ a:hover {
 }
 
 a:visited {
-  color: #999999;
+  color: #708090;
 }
 
 a:active  {
-  background-color: #999999;
-  color: rgb(11, 44, 126);
+  background-color: #708090;
+  color: #4B0082;
 }
