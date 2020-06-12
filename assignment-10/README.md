@@ -1,0 +1,8 @@
+# Assignment 10
+## Angela Vanderpool
+
+1. *System fonts* are already installed on your computer system. They are meant for printing and images, but are not generally set up for web use. *Web fonts* are hosted on a server and require certain elements to be called up correctly. They are optimized for web use with 65% of websites using them. *Web-safe fonts* are available on both Windows and Macs, and since the computer already has these fonts installed, load times are decreased.
+
+2. The importance of having fallback fonts or a font stack is in the event that the user's computer does not have the preferred font available or accessible, then another font will show in its place preventing loading delays/issues.
+
+3. My work cycle: I watched the walk through after reading the textbook and module on the website. I began with the information from the walk through and adjusted it slightly. I chose a different cursive font style and made a few other adjustments. The pseudo elements are sort of confusing which flustered me a few times on the "CSS Diner" game. Learning more about font styles and how to utilize them was interesting and something I rather enjoyed. 
