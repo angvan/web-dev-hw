@@ -3,7 +3,7 @@
 body {
   background-color: #CD5C5C;
   color: #FFFAF0;
-  padding: 5px;
+  padding: 10px 200px 10px 200px;
   font-family: 'Merriweather', serif;
   font-weight: 500;
 }
@@ -11,15 +11,36 @@ body {
 h1 {
   font-style: italic;
   text-decoration: underline;
+  font-size: 350%;
+  text-shadow: 2px 2px 3px #666666;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
 }
 
 /* Paragraph content */
-.text {
-  background-color: #FFFAF0;
-  color: #CD5C5C;
-  padding: 5px;
-  line-height: 2em;
+.background {
+  background: url("../images/duncan.jpg") no-repeat fixed center;
 }
+
+.transbox {
+  margin: 30px;
+  background-color: #F0FFF0;
+  border: 1px solid black;
+  opacity: 0.5;
+}
+
+.transbox p {
+  margin: 5%;
+  color: #000000;
+  font-weight: bold;
+  padding: 20px;
+  line-height: 2em;
+  text-align: left;
+}
+
 
 .container {
   font-family: serif;
@@ -37,14 +58,14 @@ p:first-of-type:first-letter {
   font-family: 'Great Vibes', cursive;
   font-size: 4em;
   font-weight: 700;
-  color: #4B0082;
+  color: #191970;
 }
 
 
 /* Read more link */
 a {
-  background-color: #4B0082;
-  color: #FFFFFF;
+  background-color: #008B8B;
+  color: #F0FFF0;
   padding: 5px;
   position: relative;
   top: 5px;
@@ -52,6 +73,7 @@ a {
 
 a:hover {
   font-style: italic;
+  background-color: #5F9EA0;
 }
 
 a:visited {
