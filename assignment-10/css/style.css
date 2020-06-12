@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Meddon&family=Merriweather:wght@300&display=swap');
+/* Page wide */
+body {
+  background-color: #CD5C5C;
+  color: white;
+  padding: 5px;
+  font-family: 'Merriweather', serif;
+}
+
+/* Paragraph content */
+.text {
+  background-color: #FFFFFF;
+  color: #CD5C5C;
+  padding: 5px;
+  line-height: 2em;
+}
+
+.container {
+  font-family: serif;
+  background-color: #F0FFF0;
+  color: #191970;
+  position: relative;
+  top: 35px;
+  width: 350px;
+  margin: auto;
+  padding: 20px;
+}
+
+p:first-of-type:first-letter {
+  font-family: 'Meddon', cursive;
+  font-size: 2em;
+  font-weight: 700;
+  color: rgb(11, 44, 126);
+}
+
+/* Read more link */
+a {
+  background-color: rgb(11, 44, 126);
+  color: #FFFFFF;
+  padding: 5px;
+}
+
+a:hover {
+  font-style: italic;
+}
+
+a:visited {
+  color: #999999;
+}
+
+a:active  {
+  background-color: #999999;
+  color: rgb(11, 44, 126);
+}
