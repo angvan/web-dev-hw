@@ -17,6 +17,7 @@ h1 {
 }
 
 h2 {
+  text-shadow: 1px 1px 2px #666666;
   text-align: center;
 }
 
@@ -29,10 +30,10 @@ h2 {
   margin: 30px;
   background-color: #F0FFF0;
   border: 1px solid black;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
-.transbox p {
+p {
   margin: 5%;
   color: #000000;
   font-weight: bold;
@@ -41,14 +42,14 @@ h2 {
   text-align: left;
 }
 
-
 .container {
-  font-family: serif;
   background-color: #F0FFF0;
   color: #191970;
+  font-weight: bold;
+  font-size: 12px;
   position: relative;
   top: 35px;
-  width: 375px;
+  width: 475px;
   margin: auto;
   padding: 10px;
   text-align: center;
@@ -59,6 +60,11 @@ p:first-of-type:first-letter {
   font-size: 4em;
   font-weight: 700;
   color: #191970;
+}
+
+#date {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2em;
 }
 
 
