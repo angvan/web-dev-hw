@@ -29,8 +29,8 @@ h2 {
 .transbox {
   margin: 30px;
   background-color: #F0FFF0;
-  border: 1px solid black;
-  opacity: 0.7;
+  border: 5px solid DimGray;
+  opacity: 0.6;
 }
 
 p {
@@ -47,6 +47,7 @@ p {
   color: #191970;
   font-weight: bold;
   font-size: 12px;
+  border-style: double;
   position: relative;
   top: 35px;
   width: 475px;
@@ -58,7 +59,7 @@ p {
 p:first-of-type:first-letter {
   font-family: 'Great Vibes', cursive;
   font-size: 4em;
-  font-weight: 700;
+  font-weight: bold;
   color: #191970;
 }
 
@@ -67,11 +68,12 @@ p:first-of-type:first-letter {
   font-size: 2em;
 }
 
-
 /* Read more link */
 a {
   background-color: #008B8B;
   color: #F0FFF0;
+  border-color: #8f8b8b #383636 #383636 #8f8b8b;
+  border-style: solid;
   padding: 5px;
   position: relative;
   top: 5px;
