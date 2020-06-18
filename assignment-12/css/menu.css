@@ -1,0 +1,84 @@
+/* Navigation Menu */
+
+/* Menu bar container */
+menu {
+  margin: 0;
+  padding: 0;
+  background-color: chocolate;
+}
+
+#site-links {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+#site-links .menu-item {
+  width: 6em;
+  background-color: chocolate;
+  padding: .5em 1em;
+  display: inline-block;
+  text-align: center;
+  color: white;
+}
+
+#site-links .menu-item:hover {
+  background-color: saddlebrown;
+  color: salmon;
+  text-decoration: underline overline;
+  text-decoration-color: salmon;
+  text-decoration-style: wavy;
+}
+/* Dropdown */
+#site-links .dropdown {
+  display: inline-block;
+  width: 6em;
+}
+#site-links .dropdown-content {
+  display: none;
+  position: absolute;
+
+  background-color: saddlebrown;
+  z-index: 5;
+}
+#site-links .dropdown-content a {
+  color: #FFF;
+  font-family: /*thinner font*/
+
+}
+#site-links .dropdown-content a:hover {
+  color: saddlebrown;
+  font-weight: 900;
+}
+#site-links .dropdown:hover .dropdown-content {
+  display: block;
+}
+#site-links .dropdown-item {
+  min-width: 6em;
+  padding: .5em 1em;
+  display: block;
+  text-align: center;
+
+}
+.dropdown-item:hover {
+  background-color: chocolate;
+}
+/* Social media accounts */
+#social-links {
+  padding: .5em;
+  display: inline-block;
+  float: right;
+
+}
+#social-links .social-item {
+  margin: 0 5px;
+
+}
+#social-links img {
+  width: 20px;
+  height: 20px;
+  opacity: .5;
+}
+#social-links img:hover {
+  opacity: 1;
+}
