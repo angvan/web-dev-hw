@@ -50,6 +50,10 @@ p:first-letter {
   color: salmon;
   font-weight: 600;
   text-shadow: 2px 2px 0px #000;
+  margin-left: 2em;
+  border-style: none;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px #552621;
 }
 
 #info {
@@ -75,7 +79,7 @@ p:first-letter {
   border-radius: 100%;
   font-size: 2em;
   line-height: 150px;
-  color: #000;
+  color: #552621;
   text-shadow: 2px 2px 7px #111111;
   text-tranform: uppercase;
 }
@@ -84,7 +88,7 @@ p:first-letter {
   border-style: inset;
   opacity: .7;
   font-style: italic;
-  color: brown;
+  color: chocolate;
 }
 
 /* Menu bar container */
@@ -110,7 +114,7 @@ menu {
 }
 
 #site-links .menu-item:hover {
-  background-color: brown;
+  background-color: #552621;
   color: salmon;
   text-decoration: underline overline;
   text-decoration-color: salmon;
@@ -126,7 +130,7 @@ menu {
 #site-links .dropdown-content {
   display: none;
   position: absolute;
-  background-color: brown;
+  background-color: #552621;
   z-index: 5;
 }
 
@@ -135,10 +139,10 @@ menu {
 }
 
 #site-links .dropdown-content a:hover {
-  color: #800000;
+  color: #552621;
   font-weight: 400;
   text-decoration: underline overline;
-  text-decoration-color: #800000;
+  text-decoration-color: #552621;
   text-decoration-style: wavy;
 }
 
@@ -177,4 +181,14 @@ menu {
 
 #social-links img:hover {
   opacity: 1;
+}
+
+.line {
+  border-top: 5px double salmon;
+}
+
+footer {
+  text-align: center;
+  font-size: .75em;
+  margin-top: 3em;
 }
