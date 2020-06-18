@@ -1,12 +1,180 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/* Site wide */
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Noto+Sans+HK:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
 
 body {
   color: #000;
-  margin: ;
-  font-family: 'Abel', sans-serif;
+  margin: 5;
+  font-family: 'Noto Sans HK', sans-serif;
   font-size: 1.25em;
   background-image: url("../images/bg-placeholder.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+h1 {
+  font-family: 'Cardo', serif;
+  font-size: 300%;
+  text-shadow: 1px 1px 0px salmon;
+  text-decoration: underline overline;
+}
+
+h2 {
+  font-size: 200%;
+  font-family: 'Dancing Script', cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+p:first-letter {
+  font-size: 2em;
+  font-weight: 400;
+  font-family: 'Dancing Script', cursive;
+  color: salmon;
+  text-shadow: 1px 1px 0px #000;
+}
+
+.beans {
+  background-image: url("../images/placeholder-2.jpg");
+}
+
+.form {
+  background-image: url("../images/placeholder-3.jpg");
+  opacity: .8;
+  width: 600px;
+  height: 350px;
+  color: salmon;
+  font-weight: 600;
+  text-shadow: 2px 2px 0px #000;
+}
+
+#info {
+  color: salmon;
+  font-weight: 700;
+  text-shadow: 2px 2px 0px #000;
+  font-family: 'Dancing Script', cursive;
+  font-size: 200%;
+}
+
+.logo {
+  background-color: salmon;
+  opacity: .9;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 70px;
+  left: 1300px;
+  margin: 5;
+  padding: 0;
+  text-align: center;
+  border: 5px outset chocolate;
+  border-radius: 100%;
+  font-size: 2em;
+  line-height: 150px;
+  color: #000;
+  text-shadow: 2px 2px 7px #111111;
+  text-tranform: uppercase;
+}
+
+.logo:hover {
+  border-style: inset;
+  opacity: .7;
+  font-style: italic;
+  color: brown;
+}
+
+/* Menu bar container */
+menu {
+  margin: 0;
+  padding: 0;
+  background-color: chocolate;
+}
+
+#site-links {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+#site-links .menu-item {
+  width: 6em;
+  background-color: chocolate;
+  padding: .5em 1em;
+  display: inline-block;
+  text-align: center;
+  color: #FFF;
+}
+
+#site-links .menu-item:hover {
+  background-color: brown;
+  color: salmon;
+  text-decoration: underline overline;
+  text-decoration-color: salmon;
+  text-decoration-style: wavy;
+}
+
+/* Dropdown */
+#site-links .dropdown {
+  display: inline-block;
+  width: 6em;
+}
+
+#site-links .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: brown;
+  z-index: 5;
+}
+
+#site-links .dropdown-content a {
+  color: #FFF;
+}
+
+#site-links .dropdown-content a:hover {
+  color: #800000;
+  font-weight: 400;
+  text-decoration: underline overline;
+  text-decoration-color: #800000;
+  text-decoration-style: wavy;
+}
+
+#site-links .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#site-links .dropdown-item {
+  min-width: 6em;
+  padding: .5em 1em;
+  display: block;
+  text-align: center;
+
+}
+
+.dropdown-item:hover {
+  background-color: chocolate;
+}
+
+/* Social media accounts */
+#social-links {
+  padding: .5em;
+  display: inline-block;
+  float: right;
+}
+
+#social-links .social-item {
+  margin: 0 5px;
+}
+
+#social-links img {
+  width: 25px;
+  height: 25px;
+  opacity: .5;
+}
+
+#social-links img:hover {
+  opacity: 1;
 }
