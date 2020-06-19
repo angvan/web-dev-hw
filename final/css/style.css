@@ -1,0 +1,149 @@
+/* Site wide */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+  color: #000;
+  margin: 5;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.25em;
+  background-image: url("../images/bg-railroad.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.background {
+  background: url(klematis.jpg) repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px 30px 30px 300px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* Navigation style */
+
+.navigation {
+  background-color: #000;
+  width: 300px;
+  height: 100%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #6495ED;
+}
+/* Logo and title */
+
+.site-info {
+  margin: 2em auto;
+
+  text-align: center;
+  font-size: 200%;
+}
+.logo {
+  background-color: #000;
+  width: 150px;
+  height: 150px;
+
+  margin: 0 auto 1em auto;
+
+  border: 5px solid #000;
+  border-radius: 100%;
+
+  line-height: 150px;
+  color: #6495ED;
+  text-tranform: uppercase;
+}
+
+.logo:hover {
+  border-color: #6495ED;
+
+  font-style: italic;
+}
+
+/* Site links */
+
+.site-links {
+  margin: 0 1em;
+}
+.site-links a {
+  display: block;
+  margin: 1em;
+}
+.site-links a:hover {
+  margin-left: 2em;
+}
+#site-links {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+#site-links .menu-item {
+  width: 6em;
+  background-color: #000;
+  padding: .5em 1em;
+  display: block;
+  text-align: center;
+  color: #6495ED;
+}
+
+#site-links .menu-item:hover {
+  background-color: #000;
+  color: #6495ED;
+
+}
+
+/* Dropdown */
+#site-links .dropdown {
+  display: block;
+  width: 6em;
+}
+
+#site-links .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000;
+  z-index: 5;
+}
+
+#site-links .dropdown-content a {
+  color: #6495ED;
+}
+
+#site-links .dropdown-content a:hover {
+  color: #6495ED;
+  font-weight: 400;
+
+}
+
+#site-links .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#site-links .dropdown-item {
+  min-width: 6em;
+  padding: .5em 1em;
+  display: block;
+  text-align: center;
+
+}
+
+.dropdown-item:hover {
+  background-color: ;
+}
