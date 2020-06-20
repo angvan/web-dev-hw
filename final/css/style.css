@@ -180,10 +180,10 @@ h1 {
   color: #ff3c42;
   font-weight: 400;
   text-shadow: 1px 1px 0px #000;
-  margin: 5em 0 0 30em;
+  margin: 5em 0 0 20em;
   border-style: ridge;
   border-radius: 30px;
-  padding: 30px;
+  padding: 10px;
 }
 .blue {
   background-image: url("../images/butterfly.jpg");
@@ -264,4 +264,13 @@ p img.align-left {
 }
 #third {
   margin: 10px 650px 10px 650px;
+}
+.submit {
+  text-align: center;
+}
+legend {
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 10px 10px;
+  text-align: left;
 }
